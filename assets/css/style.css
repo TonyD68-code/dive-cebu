@@ -1,0 +1,43 @@
+
+#hero {
+    background-image: url("../images/background.webp");
+    background-size: cover;
+    background-position: 50% 70%;
+    min-height: 400px;
+    padding: 5% 7%;
+    background-color: #dbdcde;
+
+}
+
+#hero h1 {
+    color: #dbdcde;
+    font-size: 50px;
+}
+
+#about {
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #0b21ec;
+}
+
+#footer {
+    text-align: center;
+}
+
