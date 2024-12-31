@@ -1,3 +1,6 @@
+body {background-color: #ccd9f1;}
+
+.navbar {background-color: #ccd9f1;}
 
 #hero {
     background-image: url("../images/background.webp");
@@ -14,12 +17,16 @@
     font-size: 50px;
 }
 
-#about {
-    background-color: white;
-    padding: 20px;
+#main {
+    padding: 30px 0px 0px 0px;
+    margin: auto;
+    
 }
 
-
+#locations {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
 
 
 /* Footer */
