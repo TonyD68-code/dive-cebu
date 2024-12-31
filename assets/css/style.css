@@ -2,6 +2,10 @@ body {background-color: #ccd9f1;}
 
 .navbar {background-color: #ccd9f1;}
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 #hero {
     background-image: url("../images/background.webp");
     background-size: cover;
@@ -44,7 +48,5 @@ body {background-color: #ccd9f1;}
     color: #0b21ec;
 }
 
-#footer {
-    text-align: center;
-}
+
 
