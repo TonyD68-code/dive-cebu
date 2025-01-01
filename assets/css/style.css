@@ -35,6 +35,10 @@ body {background-color: #ccd9f1;}
     color: #dbdcde;
     font-size: 50px;
 }
+
+#hero-sub p {
+    color: #ffffff;
+}
 #main {
     padding: 30px 0px 0px 0px;
     margin: auto;
