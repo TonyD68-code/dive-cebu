@@ -38,10 +38,12 @@ body {background-color: #ccd9f1;}
 #hero-sub h1 {
     color: #dbdcde;
     font-size: 50px;
+    background-color: rgba(41, 41, 41, 0.8);
 }
 
 #hero-sub p {
     color: #ffffff;
+    background-color: rgba(41, 41, 41, 0.8);
 }
 #main {
     padding: 30px 0px 0px 0px;
