@@ -19,8 +19,12 @@ body {background-color: #ccd9f1;}
 #hero h1 {
     color: #dbdcde;
     font-size: 50px;
+    background: rgba(41, 41, 41, 0.5);
 }
 
+#hero p {
+    background-color: rgba(41, 41, 41, 0.5);
+}
 #hero-sub {
     background-image: url("../images/background.webp");
     background-size: cover;
