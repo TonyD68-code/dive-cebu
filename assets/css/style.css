@@ -86,4 +86,20 @@ body {background-color: #ccd9f1;}
 }
 
 
+/* contact form */
+
+.w-responsive {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .w-responsive {
+      width: 50%;
+    }
+  }
+  @media (min-width: 992px) {
+    .w-responsive {
+      width: 40%;
+    }
+  }
+
 
