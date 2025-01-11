@@ -57,6 +57,29 @@ body {
     background-color: rgba(65, 33, 77, 0.5);
 }
 
+#hero-explore {
+    background-image: url("../images/gallery/diving-couple-selfie.webp");
+    background-size: cover;
+    background-position: 10% 30%;
+    min-height: 200px;
+    padding: 5% 7%;
+    background-color: #dbdcde;
+    margin-bottom: 20px;
+}
+
+#hero-explore h1 {
+    font-family: 'roboto';
+    color: #dbdcde;
+    font-size: 50px;
+    background-color: rgba(65, 33, 77, 0.5);
+}
+
+#hero-explore p {
+    font-family: 'roboto';
+    color: #ffffff;
+    background-color: rgba(65, 33, 77, 0.5);
+}
+
 /*content area */
 
 #main {
