@@ -15,7 +15,7 @@ body {
 
 /* hero section */
 #hero {
-    background-image: url("../images/background-min.webp");
+    background-image: url("../images/hero-images/diver-on-reef.webp");
     background-size: cover;
     background-position: 50% 70%;
     min-height: 400px;
@@ -34,8 +34,8 @@ body {
     font-family: 'roboto';
     background-color: rgba(65, 33, 77, 0.5);
 }
-#hero-sub {
-    background-image: url("../images/female-scuba-diver.webp");
+#hero-contact {
+    background-image: url("../images/hero-images/female-scuba-diver.webp");
     background-size: cover;
     background-position: 10% 30%;
     min-height: 200px;
@@ -44,21 +44,21 @@ body {
     margin-bottom: 20px;
 }
 
-#hero-sub h1 {
+#hero-contact h1 {
     font-family: 'roboto';
     color: #dbdcde;
     font-size: 50px;
     background-color: rgba(65, 33, 77, 0.5);
 }
 
-#hero-sub p {
+#hero-contact p {
     font-family: 'roboto';
     color: #ffffff;
     background-color: rgba(65, 33, 77, 0.5);
 }
 
 #hero-explore {
-    background-image: url("../images/gallery/diving-couple-selfie.webp");
+    background-image: url("../images/hero-images/diving-couple-selfie.webp");
     background-size: cover;
     background-position: 10% 30%;
     min-height: 200px;
