@@ -68,27 +68,24 @@ body {
     min-height: 120px;
 }
 
-
+#locations {
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
 .custom-btn {
     background-color: #4680C8;
     color: #fff;
 }
 
-
+/* explore page */
 #explore {
     padding: 30px 0px 0px 0px;
     margin: auto;
     
 }
 
-#locations {
-    padding: 0px 0px 0px 0px;
-    margin: auto;
-}
 
-#signup {
-    mx-auto class
-}
+
 
 /* Footer */
 #social-networks {
@@ -110,7 +107,6 @@ body {
 
 .w-responsive {
     width: 100%;
-    text-align: center;
   }
   @media (min-width: 768px) {
     .w-responsive {
