@@ -44,12 +44,14 @@ body {
 }
 
 #hero-sub h1 {
+    font-family: 'roboto';
     color: #dbdcde;
     font-size: 50px;
     background-color: rgba(65, 33, 77, 0.5);
 }
 
 #hero-sub p {
+    font-family: 'roboto';
     color: #ffffff;
     background-color: rgba(65, 33, 77, 0.5);
 }
@@ -84,6 +86,10 @@ body {
     margin: auto;
 }
 
+#signup {
+    mx-auto class
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -104,15 +110,16 @@ body {
 
 .w-responsive {
     width: 100%;
+    text-align: center;
   }
   @media (min-width: 768px) {
     .w-responsive {
-      width: 50%;
+      width: 100%;
     }
   }
   @media (min-width: 992px) {
     .w-responsive {
-      width: 40%;
+      width: 100%;
     }
   }
 
