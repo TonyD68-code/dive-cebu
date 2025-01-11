@@ -1,4 +1,9 @@
-body {background-color: #ccd9f1;}
+body {
+    background-color: #ccd9f1;
+    font-family: 'roboto';
+}
+
+
 
 /*navbar */
 
@@ -21,11 +26,11 @@ body {background-color: #ccd9f1;}
 #hero h1 {
     color: #dbdcde;
     font-size: 50px;
-    background: rgba(41, 41, 41, 0.5);
+    background: rgba(65, 33, 77, 0.5);
 }
 
 #hero p {
-    background-color: rgba(41, 41, 41, 0.5);
+    background-color: rgba(65, 33, 77, 0.5);
 }
 #hero-sub {
     background-image: url("../images/background.webp");
@@ -39,12 +44,12 @@ body {background-color: #ccd9f1;}
 #hero-sub h1 {
     color: #dbdcde;
     font-size: 50px;
-    background-color: rgba(41, 41, 41, 0.8);
+    background-color: rgba(65, 33, 77, 0.8);
 }
 
 #hero-sub p {
     color: #ffffff;
-    background-color: rgba(41, 41, 41, 0.8);
+    background-color: rgba(65, 33, 77, 0.8);
 }
 
 /*content area */
@@ -58,6 +63,13 @@ body {background-color: #ccd9f1;}
 .card-text {
     min-height: 120px;
 }
+
+
+.custom-btn {
+    background-color: #4680C8;
+    color: #fff;
+}
+
 
 #explore {
     padding: 30px 0px 0px 0px;
@@ -82,7 +94,7 @@ body {background-color: #ccd9f1;}
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #0b21ec;
+    color: #4680C8;
 }
 
 
