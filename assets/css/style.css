@@ -25,11 +25,13 @@ body {
 
 #hero h1 {
     color: #dbdcde;
+    font-family: 'roboto';
     font-size: 50px;
     background: rgba(65, 33, 77, 0.5);
 }
 
 #hero p {
+    font-family: 'roboto';
     background-color: rgba(65, 33, 77, 0.5);
 }
 #hero-sub {
@@ -44,12 +46,12 @@ body {
 #hero-sub h1 {
     color: #dbdcde;
     font-size: 50px;
-    background-color: rgba(65, 33, 77, 0.8);
+    background-color: rgba(65, 33, 77, 0.5);
 }
 
 #hero-sub p {
     color: #ffffff;
-    background-color: rgba(65, 33, 77, 0.8);
+    background-color: rgba(65, 33, 77, 0.5);
 }
 
 /*content area */
