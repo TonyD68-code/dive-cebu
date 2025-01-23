@@ -160,7 +160,45 @@ This page will feature a simple contact form allowing the user to make an enquir
 
 # Testing
 
-All pages were tested using W3C for validation and Google Lighthouse for performance and accessibility
+## Testing User Stories
+
+### New User
+
+* I want to know the subject of the site
+* I want to be able to navigate the site easily
+* I want to see good quality photos
+* I should be able to ask questions via a contact form
+
+![homepage-screenshot](documentation\images\testing\homepages-testing-screenshot.png)
+
+* Subject is clearly shown by hero image and text and description on top of hero image
+* Navigation is simple with menu located on top right of every page
+* good quality underwater images used througout the site
+
+![homepage-screenshot](documentation\images\testing\contact-form.png)
+
+* Contact form is easily accessable via the contact link in the menu
+
+
+
+### Returning User
+
+* I want to come back to the site often to check for updates and new images
+* I want to return to the site to check for any new information
+* I want to see the sites social media
+
+![homepage-screenshot](documentation\images\testing\explore-update.png)
+
+* New photos and videos will be published on explore.html on a regular basis
+* News and other updates will be added to the future blog page
+
+![homepage-screenshot](documentation\images\testing\social-footer.png)
+
+* social media is accessible through the links in footer on every page
+
+
+
+## All pages were tested using W3C for validation and Google Lighthouse for performance and accessibility
 
 <details>
 
@@ -205,7 +243,7 @@ All pages were tested using W3C for validation and Google Lighthouse for perform
 
 <details>
 
-<summary>Accessibility Testing</summary>
+<summary>Accessibility and Responsiveness Testing using Google Lighthouse</summary>
 
 ### Accessibility testing by Google Lighthouse
 
@@ -216,7 +254,9 @@ All pages were tested using W3C for validation and Google Lighthouse for perform
 
 ## Future Features
 
-More pages, each dedicated to a specific dive site and showing photos and videos of only that site, these pages will be linked to from each separate card on the homepage
+More pages, each dedicated to a specific dive site and showing photos and videos of only that site, these pages will be linked to from each separate card on the homepage.
+
+Add blog to keep returning users up to date with any news and to enable new users to view news history.
 
 
 ## Languages and resources
