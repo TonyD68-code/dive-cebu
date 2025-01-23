@@ -200,21 +200,20 @@ This page will feature a simple contact form allowing the user to make an enquir
 
 ## All pages were tested using W3C for validation and Google Lighthouse for performance and accessibility
 
-Click arrow to expand
 
 <details>
 
-<summary>index.html validation</summary>
+<summary>index.html validation (Click to view)</summary>
 
 ### index.html Validation by W3C
 
-![index page validation](documentation/images/testing/index-validation.png)
+![index page validation ](documentation/images/testing/index-validation.png)
 
 </details>
 
 <details>
 
-<summary>explore.html validation</summary>
+<summary>explore.html validation (Click to view)</summary>
 
 ### explore.html Validation by W3C
 
@@ -224,7 +223,7 @@ Click arrow to expand
 
 <details>
 
-<summary>contact.html validation</summary>
+<summary>contact.html validation (Click to view)</summary>
 
 ### contact.html Validation by W3C
 
@@ -234,7 +233,7 @@ Click arrow to expand
 
 <details>
 
-<summary>style.css validation</summary>
+<summary>style.css validation (Click to view)</summary>
 
 ### CSS Stylesheet Validation by W3C
 
@@ -245,7 +244,7 @@ Click arrow to expand
 
 <details>
 
-<summary>Accessibility and Responsiveness Testing using Google Lighthouse</summary>
+<summary>Accessibility and Responsiveness Testing using Google Lighthouse (Click to view)</summary>
 
 ### Accessibility testing by Google Lighthouse
 
