@@ -3,12 +3,9 @@ body {
     font-family: 'roboto';
 }
 
-
-
 /*navbar */
 
 .navbar {background-color: #ccd9f1;}
-
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -34,6 +31,7 @@ body {
     font-family: 'roboto';
     background-color: rgba(65, 33, 77, 0.5);
 }
+
 #hero-contact {
     background-image: url("../images/hero-images/female-scuba-diver.webp");
     background-size: cover;
@@ -84,8 +82,7 @@ body {
 
 #main {
     padding: 30px 0px 0px 0px;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .card-text {
@@ -96,22 +93,21 @@ body {
     padding: 0px 0px 0px 0px;
     margin: auto;
 }
+
 .custom-btn {
     background-color: #4680C8;
     color: #fff;
 }
 
 /* explore page */
+
 #explore {
     padding: 30px 0px 0px 0px;
     margin: auto;
-    
 }
 
-
-
-
 /* Footer */
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -126,21 +122,22 @@ body {
     color: #4680C8;
 }
 
-
 /* contact form */
 
-.w-responsive {
+    .w-responsive {
     width: 100%;
   }
-  @media (min-width: 768px) {
-    .w-responsive {
-      width: 100%;
-    }
-  }
-  @media (min-width: 992px) {
+
+/* media queries */
+
+    @media (min-width: 768px) {
     .w-responsive {
       width: 100%;
     }
   }
 
-
+    @media (min-width: 992px) {
+    .w-responsive {
+      width: 100%;
+    }
+  }
