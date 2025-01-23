@@ -1,131 +1,265 @@
-![CI logo](documentation/images/responsive.png)
+ 
 
-Welcome Tony Dalton,
+![Dive Cebu](documentation/images/responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Dive Cebu - Philippino Diving Website 
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+ This responsive site is designed for people interested in scuba diving in the Philippines and it can be viewed on various devices.
 
-## Gitpod Reminders
+[View Dive Cebu on Github Pages](https://github.com/TonyD68-code/dive-cebu)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## About the site
+* It features a simple homepage with a navbar that includes a button to go straight to a “explore” page and a contact us form. 
+* The homepage offers a brief introduction and links to the explore page via cards that show a few details of each of thedive sites.
+* The explore page shows 360 photo, video and various photos of dive sites.
+* The 360 photo is interactive and the video has controls available to the user.
+* There is a contact page to submit questions or enquiries. 
+* The aim is to get the user to contact us for more information about the various types of diving offered.
+* There should be assurance that users will interact with the page in some way be it through the form or viewing the 360 photo and watching the video.
 
-`python3 -m http.server`
+## Website Goals
 
-A blue button should appear to click: _Make Public_,
+### Business Goals
+* Ease of use and easy to navigate with good images.
+* An easy contact process for anyone to use to contact the site.
+* Interesting enough to click through all the webpages.
+* Promote diving in the Philippines.  
 
-Another blue button should appear to click: _Open Browser_.
+### User Goals
+* Find information about diving in the Philippines
+* To be able to browse photos and videos
+* To easily contact the site   
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+## User Experience
 
-Another blue button should appear to click: _Open Browser_.
+### Potential Customers
+* All ages interested in Scuba Diving
+* Users should find the website easy to use and navigate
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Stories
 
-To log into the Heroku toolbelt CLI:
+### New User
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* I want to know the subject of the site
+* I want to be able to navigate the site easily
+* I want to see good quality photos
+* I should be able to ask questions via a contact form
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-### Connecting your Mongo database
+### Returning User
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+* I want to come back to the site often to check for updates and new images
+* I want to return to the site to check foir any new information
+* I want to see the sites social media
 
-------
 
-## Release History
+## Design
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Colour Scheme
 
-**June 18, 2024,** Add Mongo back into template
+* Indigo: #4680C8
+* Heather: #B7BACE
+* Malibu: #8AC4F8
+* Ship Gray: #413F4D
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+![Color Pallette](documentation/images/color-pallette.png)
 
-**May 28 2024:** Fix Mongo and Links installs
+The colours were selected for their contrast and similarity to many dive photos
 
-**April 26 2024:** Update node version to 16
+The website [Canva](https://www.canva.com/) has been used here to preview the colour scheme and how they look together as a palette.
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Font Family
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+The main logo of the site is “Roboto” a very clear and readable font. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The websites fonts will be linked from [Google Fonts](https://fonts.google.com/) 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Most of the website will use some variation of this font styled in various ways, such as italic and bold.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The fallback font will be sans-serif.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Images
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+All images used are Diving related. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The images will be all consistent in style and colours to fit in with the website’s themes. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+The homepage images should be bright and inviting, and feature real-world photos of Diving
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Wireframes
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The wireframing software Balsamiq Wireframes has been used to produce wireframe drawings and to preview the site’s layout.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<details>
 
-------
+<summary>Click to view mobile wireframe</summary>
 
-## FAQ about the uptime script
+### Mobile wireframe
 
-**Why have you added this script?**
+![Color Pallette](documentation/images/wireframes/mobile-wireframe-v3.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+</details>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+<details>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<summary>Click to view Desktop wireframe</summary>
 
-**Can I opt out?**
+### Desktop wireframe
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Color Pallette](documentation/images/wireframes/desktop-wireframe-v2.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
+</details>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+## Features
 
-Happy coding!
+### Common features on all pages
+
+
+* The site will have a responsive navigation bar at the top of the page, which disappears when scrolling down the page. 
+* The navigation bar has links for Home, Explore, Contact us. 
+* The links are then compacted for mobile devices as a drop-down menu. 
+* The page you are currently on will be underlined. All the themes of the pages will be consistent, such as colour and font theme. 
+* Clicking the main logo will always bring you back to the homepage.
+* The footer will contain social media links for facebook, twitter, Instagram and Youtube.
+
+
+
+### Home Page
+
+
+The main page is a hero image with a brief text explaining what the site is. 
+The links on the navigation bar are big enough that they can be noticed easily by those with visual impairments. 
+The homepage establishes the feel of the site and should be very easy to navigate. 
+The page will also feature an 'Explore' button above the 4 cards to allow easy user navigation to view the video and photos
+
+
+
+### Explore
+
+
+This page will feature the following;
+* 360 photo
+* Video
+* Photos 
+
+All of which allow the user to get a feel of what it is possible to see at various dive sites
+
+
+### Contact
+This page will feature a simple contact form allowing the user to make an enquiry  or ask further questions  
+
+# Testing
+
+All pages were tested using W3C for validation and Google Lighthouse for performance and accessibility
+
+<details>
+
+<summary>index.html validation</summary>
+
+### index.html Validation by W3C
+
+![index page validation](documentation/images/testing/index-validation.png)
+
+</details>
+
+<details>
+
+<summary>explore.html validation</summary>
+
+### explore.html Validation by W3C
+
+![explore page validation](documentation/images/testing/explore-validation.png)
+
+</details>
+
+<details>
+
+<summary>contact.html validation</summary>
+
+### contact.html Validation by W3C
+
+![Contact page validation](documentation/images/testing/index-validation.png)
+
+</details>
+
+<details>
+
+<summary>style.css validation</summary>
+
+### CSS Stylesheet Validation by W3C
+
+![CSS Validation](documentation/images/testing/css-validation.png)
+
+</details>
+
+
+<details>
+
+<summary>Accessibility Testing</summary>
+
+### Accessibility testing by Google Lighthouse
+
+![Lighthouse](documentation/images/testing/lighthouse.png)
+
+</details>
+
+
+## Future Features
+
+More pages, each dedicated to a specific dive site and showing photos and videos of only that site, these pages will be linked to from each separate card on the homepage
+
+
+## Languages and resources
+
+* [HTML5](https://html.spec.whatwg.org/multipage/) - Markup language which makes up the site
+* [CSS3](https://www.w3.org/TR/css-2022/) - Used for styling the site
+* [Bootstrap v5.3](https://getbootstrap.com/) - Open source framework for responsiveness and mobile first frontend development
+* [Fontawesome](https://fontawesome.com/) - Used for social media Icons
+* [Google Fonts](https://fonts.google.com/) - Used for fonts
+* [Momento360](https://www.momento360.com/) - Hosting of 360 images
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/) – Software used to wireframe and prototype the site’s look and layout.
+* [Github](https://github.com/) – Repository for the site’s code.
+* [Code Institute Workspaces](https://codeinstitute-ide.net/workspaces) – IDE used to write the site.
+
+
+## Testing resources
+
+* Testing for HTML validation [W3C](https://validator.w3.org/)
+* Testing for CSS valisdation [W3C CSS](https://jigsaw.w3.org/css-validator/)
+
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the Settings tab
+2. From the source section drop-down menu, select the Main Branch, then click "Save".
+3. The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://tonyd68-code.github.io/dive-cebu/)
+
+
+## Credits
+
+### Media
+
+* 360 photo and some others were photographed myself
+* Video by good friend and Dive Buddy Mark Layton
+* Other photos My good friend and wonderful divemaster Fernando Amistad
+* High quality Hero images from [Envato](https://elements.envato.com/)
+
+
+### Acknowledgements
+
+* I would like to thank my Code Institute mentor, Sheryl Goldberg for her support throughout the development of this project.
+* I would like to thank the Code Institute tutor team, especially Rachel Furlong for their assistance.
+* I would like to thank the Code Institute Slack community for the moral support; it was invaluable at times when I could not see a light at the end of the tunnel!
