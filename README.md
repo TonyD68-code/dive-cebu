@@ -169,13 +169,13 @@ This page will feature a simple contact form allowing the user to make an enquir
 * I want to see good quality photos
 * I should be able to ask questions via a contact form
 
-![homepage-screenshot](documentation\images\testing\homepages-testing-screenshot.png)
+![homepage-screenshot](documentation/images/testing/homepages-testing-screenshot.png)
 
 * Subject is clearly shown by hero image and text and description on top of hero image
 * Navigation is simple with menu located on top right of every page
 * good quality underwater images used througout the site
 
-![contact forn screenshot](documentation\images\testing\contact-form.png)
+![contact forn screenshot](documentation/images/testing/contact-form.png)
 
 * Contact form is easily accessable via the contact link in the menu
 
@@ -187,12 +187,12 @@ This page will feature a simple contact form allowing the user to make an enquir
 * I want to return to the site to check for any new information
 * I want to see the sites social media
 
-![explore page screenshot](documentation\images\testing\explore-update.png)
+![explore page screenshot](documentation/images/testing/explore-update.png)
 
 * New photos and videos will be published on explore.html on a regular basis
 * News and other updates will be added to the future blog page
 
-![footer-screenshot](documentation\images\testing\social-footer.png)
+![footer-screenshot](documentation/images/testing/social-footer.png)
 
 * social media is accessible through the links in footer on every page
 
