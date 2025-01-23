@@ -200,6 +200,8 @@ This page will feature a simple contact form allowing the user to make an enquir
 
 ## All pages were tested using W3C for validation and Google Lighthouse for performance and accessibility
 
+Click arrow to expand
+
 <details>
 
 <summary>index.html validation</summary>
